@@ -149,6 +149,10 @@
           {from: "newsletter@offer.landsend.co.jp"},
           {from: "magnews@mag2official.com"},
           {from: "aws-marketing-email-replies@amazon.com"},
+          {from: "store-news@amazon.co.jp"},
+          {from: "promotion@aliexpress.com"},
+          {from: "shopping-newsclip-master@mail.yahoo.co.jp"},
+          {from: "ntobisawa@vmware.com"},
         ]
       },
       actions: {
