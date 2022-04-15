@@ -111,7 +111,10 @@
     },
     {
       name: "00Private/ブリジストン"
-    }
+    },
+    {
+      name: "99Trash"
+    },
   ],
   rules: [
     {
@@ -120,6 +123,7 @@
           {subject: "FreeBSD-users-jp"},
           {subject: "本日のBacklogプロジェクトレポート"},
           {subject: "購読中のはてなブログが更新されました。"},
+          {subject: "Amazonでレビューする"},
           {to: "java@jp.FreeBSD.org"},
           {to: "mew-dist"},
           {from: "@jp.freebsd.org"},
@@ -139,25 +143,54 @@
           {from: "@maillist.codeproject.com"},
           {from: "@nikkeibp.co.jp"},
           {from: "@noreply.itmedia.jp"},
+          {from: "itmedia-mail-service@itmedia.co.jp"},
           {from: "@psn.jp.playstation.com"},
           {from: "@shop.rakuten.co.jp"},
           {from: "@trr.co.jp"},
-          {from: "@getprismatic.com mag@famima.com"},
+          {from: "@getprismatic.com"},
+          {from: "mag@famima.com"},
           {from: "@news.nianticlabs.com"},
           {from: "@shop.landsend.co.jp"},
           {from: "@medium.com"},
           {from: "newsletter@offer.landsend.co.jp"},
-          {from: "magnews@mag2official.com"},
+          {from: "@mag2official.com"},
           {from: "aws-marketing-email-replies@amazon.com"},
           {from: "store-news@amazon.co.jp"},
           {from: "promotion@aliexpress.com"},
           {from: "shopping-newsclip-master@mail.yahoo.co.jp"},
+          {from: "yellmarket-master@mail.yahoo.co.jp"},
+          {from: "ybb-info-master@mail.yahoo.co.jp"},
+          {from: "directoffer-master@mail.yahoo.co.jp"},
+          {from: "finance-hikaku@mail.yahoo.co.jp"},
+          {from: "autos-master@mail.yahoo.co.jp"},
+          {from: "auction-master@mail.yahoo.co.jp"},
+          {from: "auction-coupon-master@mail.yahoo.co.jp"},
           {from: "ntobisawa@vmware.com"},
+          {from: "japan_announcements@claris.com"},
+          {from: "info@sevenmp.omni7.jp"},
+          {from: "touch.ae1@mail.aliexpress.com"},
+          {from: "mail@mail.adobe.com"},
+          {from: "services01@aliexpress.com"},
+          {from: "noreply@getpocket.com"},
+          {from: "announce-noreply@mail.iijmio.jp"},
+          {from: "googlestore-noreply@google.com"},
+          {from: "info@mackerel.io"},
+          {from: "news@epark.jp"},
+          {from: "info@e.ultimaker.com"},
+          {from: "joel@sitepoint.com"},
+          {from: "cecile-info@mp.cecile.co.jp"},
+          {from: "melma@uktsc.com"},
+          {from: "info@newsletter.sakura.ad.jp"},
+          {from: "miruden@a2.kepco.co.jp ad01.clickmailer.jp"},
+          {from: "kandenweb.kensinhyo@a2.kepco.co.jp"},
         ]
       },
       actions: {
-        delete: true,
-        markRead: true
+        // delete: true,
+        markRead: true,
+        labels: [
+          "99Trash"
+        ]
       }
     },
     {
