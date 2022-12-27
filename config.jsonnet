@@ -38,6 +38,9 @@
       name: "01仕事"
     },
     {
+      name: "01仕事/no-sinker/P-MAP"
+    },
+    {
       name: "00Private/Dropbox"
     },
     {
@@ -51,6 +54,9 @@
     },
     {
       name: "01仕事/Flashforge"
+    },
+    {
+      name: "01仕事/no-sinker/ShaddyServer"
     },
     {
       name: "00Private/陽也関係"
