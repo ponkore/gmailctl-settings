@@ -140,7 +140,7 @@
           {from: "@asahi.com"},
           {from: "@coupon.pizzahut.jp"},
           {from: "@crocos.jp"},
-          {from: "@email.aeon.co.jp"},
+          // {from: "@email.aeon.co.jp"},
           {from: "@engadget.com"},
           {from: "@felissimo.co.jp"},
           {from: "@mag2.com"},
