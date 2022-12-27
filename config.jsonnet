@@ -189,10 +189,24 @@
           {from: "info@newsletter.sakura.ad.jp"},
           {from: "miruden@a2.kepco.co.jp ad01.clickmailer.jp"},
           {from: "kandenweb.kensinhyo@a2.kepco.co.jp"},
+          {from: "magazine@mail.mechacomic.jp"},
+          {from: "joshinmail@joshin.co.jp"},
+          {from: "keitaishop-info-master@mail.yahoo.co.jp"},
+          {from: "ttkn-tgmail@noreply.itmedia.co.jp"},
+          {from: "enterprise-mail@noreply.itmedia.co.jp"},
+          {from: "contents-support@eonet.ne.jp"},
+          {from: "enterprise-mail@noreply.itmedia.co.jp"},
+          {from: "team@today.getpocket.com"},
+          {from: "itmid-wpdlc@noreply.itmedia.co.jp"},
+          {from: "mail_at_mail_adobe_com_.+@privaterelay.appleid.com"},
+          {from: "noreply@note.com"},
+          {from: "info@forkwell.com"},
+          {from: "support@ebookjapan.jp"},
+          {from: "echigo.shota@fujitsu.com"}, // VPN login
         ]
       },
       actions: {
-        // delete: true,
+        delete: true,
         markRead: true,
         labels: [
           "99Trash"
@@ -276,7 +290,12 @@
     {
       filter: {
         and: [
-          { from: "notification@facebookmail.com" },
+          {
+            or: [
+              {from: "friendsuggestion@facebookmail.com"},
+              {from: "notification@facebookmail.com"}
+            ]
+          },
           {
             or: [
               { query: "おすすめページがあります。" },
