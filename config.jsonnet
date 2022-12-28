@@ -61,9 +61,6 @@
     {
       name: "01仕事/Nulab"
     },
-    {
-      name: "99Trash"
-    },
   ],
   rules: [
     {
@@ -150,9 +147,6 @@
       actions: {
         delete: true,
         markRead: true,
-        labels: [
-          "99Trash"
-        ]
       }
     },
     {
