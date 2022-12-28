@@ -20,28 +20,13 @@
       name: "00Private"
     },
     {
-      name: "00Private/evernote"
-    },
-    {
       name: "01仕事/slack"
-    },
-    {
-      name: "00Private/阪急交通社"
-    },
-    {
-      name: "00Private/NightSafari"
-    },
-    {
-      name: "00Private/チューリッヒ保険"
     },
     {
       name: "01仕事"
     },
     {
       name: "01仕事/no-sinker/P-MAP"
-    },
-    {
-      name: "00Private/Dropbox"
     },
     {
       name: "01仕事/ESC案件"
@@ -53,25 +38,13 @@
       name: "01仕事/no-sinker"
     },
     {
-      name: "01仕事/Flashforge"
-    },
-    {
       name: "01仕事/no-sinker/ShaddyServer"
-    },
-    {
-      name: "00Private/陽也関係"
     },
     {
       name: "00Private/02Project"
     },
     {
-      name: "00Private/UFJ銀行"
-    },
-    {
       name: "01仕事/AWS"
-    },
-    {
-      name: "00Private/生協"
     },
     {
       name: "01仕事/backlog"
@@ -83,40 +56,10 @@
       name: "00Private/Apple"
     },
     {
-      name: "00Private/VISA"
-    },
-    {
-      name: "00Private/eo"
-    },
-    {
-      name: "00Private/ダイワファミリークラブ"
-    },
-    {
-      name: "00Private/ゆうちょ銀行"
-    },
-    {
-      name: "00Private/文書箱"
-    },
-    {
-      name: "00年金"
-    },
-    {
-      name: "00Private/HP"
-    },
-    {
       name: "01仕事/GSuite"
     },
     {
-      name: "01仕事/MSOffice"
-    },
-    {
-      name: "00Private/関西電力"
-    },
-    {
       name: "01仕事/Nulab"
-    },
-    {
-      name: "00Private/ブリジストン"
     },
     {
       name: "99Trash"
@@ -227,16 +170,6 @@
         archive: true,
         markRead: true,
         category: "social"
-      }
-    },
-    {
-      filter: {
-        from: "japan-post"
-      },
-      actions: {
-        labels: [
-          "00Private/ゆうちょ銀行"
-        ]
       }
     },
     {
