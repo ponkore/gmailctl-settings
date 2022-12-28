@@ -175,7 +175,7 @@
           {from: "japan_announcements@claris.com"},
           {from: "info@sevenmp.omni7.jp"},
           {from: "touch.ae1@mail.aliexpress.com"},
-          {from: "mail@mail.adobe.com"},
+          {from: "Adobe Creative Cloud"},
           {from: "services01@aliexpress.com"},
           {from: "noreply@getpocket.com"},
           {from: "announce-noreply@mail.iijmio.jp"},
@@ -192,17 +192,16 @@
           {from: "magazine@mail.mechacomic.jp"},
           {from: "joshinmail@joshin.co.jp"},
           {from: "keitaishop-info-master@mail.yahoo.co.jp"},
-          {from: "ttkn-tgmail@noreply.itmedia.co.jp"},
-          {from: "enterprise-mail@noreply.itmedia.co.jp"},
           {from: "contents-support@eonet.ne.jp"},
-          {from: "enterprise-mail@noreply.itmedia.co.jp"},
           {from: "team@today.getpocket.com"},
-          {from: "itmid-wpdlc@noreply.itmedia.co.jp"},
-          {from: "mail_at_mail_adobe_com_.+@privaterelay.appleid.com"},
           {from: "noreply@note.com"},
           {from: "info@forkwell.com"},
           {from: "support@ebookjapan.jp"},
+          {from: "noreply@diy-lab.jp"},
+          {from: "no-reply@mail.instagram.com"},
+          {from: "brian@dev.io"},
           {from: "echigo.shota@fujitsu.com"}, // VPN login
+          {from: "info@apple-tree.co.jp"},
         ]
       },
       actions: {
@@ -275,10 +274,15 @@
     },
     {
       filter: {
-        to: "masao.kato@no-sinker.co.jp"
+        and: [
+          {to: "masao.kato@no-sinker.co.jp"},
+          {or: [
+            {not: {from: "echigo.shota@fujitsu.com"}},
+            {not: {from: "info@apple-tree.co.jp"}},
+          ]},
+        ]
       },
       actions: {
-        markSpam: false,
         markImportant: true,
         category: "updates",
         labels: [
