@@ -142,6 +142,7 @@
           {from: "brian@dev.io"},
           {from: "echigo.shota@fujitsu.com"}, // VPN login
           {from: "info@apple-tree.co.jp"},
+          {from: "no-reply@connpass.com"},
         ]
       },
       actions: {
@@ -203,10 +204,8 @@
       filter: {
         and: [
           {to: "masao.kato@no-sinker.co.jp"},
-          {or: [
-            {not: {from: "echigo.shota@fujitsu.com"}},
-            {not: {from: "info@apple-tree.co.jp"}},
-          ]},
+          {not: {from: "echigo.shota@fujitsu.com"}},
+          {not: {from: "info@apple-tree.co.jp"}},
         ]
       },
       actions: {
